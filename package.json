@@ -1,0 +1,75 @@
+{
+  "name": "Flitchat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@shopify/polaris": "^4.7.3",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^4.1.4",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "font-awesome": "^4.7.0",
+    "jwt-decode": "^2.2.0",
+    "material-auto-rotating-carousel": "^3.0.2",
+    "moment": "^2.24.0",
+    "node-sass": "^4.14.1",
+    "pure-react-carousel": "^1.27.0",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.11.0",
+    "react-dropzone": "^11.0.1",
+    "react-icons": "^3.9.0",
+    "react-image-crop": "^8.6.2",
+    "react-redux": "^7.1.3",
+    "react-responsive-data-table": "^1.0.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-smart-data-table": "^0.7.3",
+    "react-sticky-footer": "0.1.0-rc3",
+    "reactstrap": "^8.4.1",
+    "reducer-redux": "^1.2.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-file-upload": "0.0.19",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "request": "^2.88.0",
+    "shortid": "^2.2.15",
+    "socket.io-client": "^2.3.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
+    "test": "env-cmd -f .env.development react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "redux-mock-store": "^1.5.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  }
+}

@@ -1,0 +1,21 @@
+.department {
+  padding-right: 30px;
+}
+
+.asset {
+  padding-right: 30px;
+}
+
+label {
+  padding: 5px;
+  font-size: 1em;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+form {
+  margin: 30px;
+}

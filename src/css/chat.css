@@ -1,0 +1,69 @@
+.chatApp {
+  text-align: center;
+}
+
+.root {
+  margin-top: 1.9%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.flex {
+  display: flex;
+  align-items: center,
+}
+.topicWindow {
+  width: 30%;
+  height: 350px;
+  border-right: 1px solid grey;
+}
+.chatWindow {
+  width: 70%;
+  height: 300px;
+  padding: 20px;
+}
+.chatBox {
+  width: 85%
+}
+
+.dropdown {
+  width: 5%;
+  padding-top: 7px;
+}
+
+.dropIcon {
+  height: 10%;
+}
+
+.button {
+  width: 15%
+}
+/* .chatApp {
+  text-align: center;
+}
+.root {
+  margin: 50px;
+  margin-top: 30px;
+  padding: spacing(3, 2)
+}
+.flex {
+  display: flex;
+  align-items: center,
+}
+.topicWindow {
+  width: 30%;
+  height: 350px;
+  border-right: 1px solid grey;
+}
+.chatWindow {
+  width: 70%;
+  height: 300px;
+  padding: 20px;
+}
+.chatBox {
+  width: 85%
+}
+.button {
+  width: 15%
+} */

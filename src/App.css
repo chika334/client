@@ -1,0 +1,245 @@
+/*NavBar*/
+.navlink {
+  margin-left: auto;
+}
+
+.navlink a {
+  text-decoration: none;
+  color:#000;
+  padding-left:50px ;
+}
+
+.navlink a:hover{
+  color: skyblue;
+}
+/*end navbar*/
+
+/*logo*/
+.img {
+  width: 50px;
+  height: 50px;
+}
+/*end logo*/
+
+/* home.js styles */
+img.backside {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+}
+
+.columns {
+  flex: 50%;
+  padding: 50px;
+  height: 40%;
+  width: 50.33%;
+  /* padding: 70px; */
+  padding-bottom: 0;
+  margin-left: 23%;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.sideimage {
+  width: 100%;
+  height: 100%;  
+}
+/* home.js styles */
+
+/* home.js form styles /* Colors */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.wrappers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  padding-top: 0;
+  /* margin: 60%; */
+}
+
+.form-wrapper {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (min-width: 500px) {
+  .form-wrapper {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the fom-wrapper stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .form-wrapper {
+    width: 100%;
+  }
+}
+
+.form-wrappers {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+/* Responsive layout - makes a two form-wrappers instead of four columns */
+@media screen and (min-width: 500px) {
+  .form-wrappers {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .form-wrappers {
+    width: 100%;
+  }
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstname,
+.lastname {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstname,
+.lastname {
+  width: 100%;
+}
+
+.email,
+.password {
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+/*end of home.js form styles */
